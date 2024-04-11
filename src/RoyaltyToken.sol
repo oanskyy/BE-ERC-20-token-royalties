@@ -42,15 +42,3 @@ contract RoyaltyToken is ERC20 {
         return true;
     }
 }
-
-// contract Counter {
-//     uint256 public number;
-
-//     function setNumber(uint256 newNumber) public {
-//         number = newNumber;
-//     }
-
-//     function increment() public {
-//         number++;
-//     }
-// }
