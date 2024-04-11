@@ -1,7 +1,8 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.25;
 
-import { ERC20 } from "solmate/tokens/ERC20.sol";
+import { ERC20 } from "../lib/solmate/src/tokens/ERC20.sol";
+// import { ERC20 } from "solmate/tokens/ERC20.sol";
 
 contract RoyaltyToken is ERC20 {
     address public royaltyAddress;
